@@ -1,0 +1,4 @@
+interface:
+  display_name: "船长AI视界 · Seedance 2.5 OS"
+  short_description: "船长AI视界出品，把普通创意变成 Seedance 2.5 视频提示词"
+  default_prompt: "使用 $seedance-25（船长AI视界版），把我的创意整理成可直接使用的 Seedance 2.5 视频提示词。"
