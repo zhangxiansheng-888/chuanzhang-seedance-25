@@ -91,16 +91,39 @@ macOS：~/.codex/skills/seedance-25
 使用 $seedance-25，把我的创意整理成一个30秒竖屏视频提示词。
 ```
 
-## WordBuddy 是什么？
+## 第三步：也可以在 WorkBuddy 中使用
 
-[WordBuddy AI](https://www.wordbuddy.ai/) 是一款独立的 AI 英语学习产品，主要提供词汇发现、口语和写作练习、AI 教练、间隔复习、词典与学习进度记录，可在 iOS、Android 和网页端使用。
+[WorkBuddy](https://www.workbuddy.cn/) 是腾讯推出的全场景 AI 工作台。它可以根据一句话要求自主规划任务、调用工具、处理本地文件，并交付文档、表格、PPT、图片或代码等成果。它还提供工作空间、多模型、专家、连接器、自动化和 Skill 扩展能力。
 
-它与本仓库的关系需要特别说明：
+### 安装 WorkBuddy
 
-- WordBuddy 不是 Seedance 视频生成工具，也不是本技能的运行环境。
-- 本技能主要运行在支持 Codex Skills 的 ChatGPT/Codex 中。
-- 如果你所说的是另一个同名 WordBuddy 客户端，只有它明确支持 Codex `SKILL.md` 和个人技能目录时，才能按该客户端说明导入本技能。
-- 不要把英语学习类 WordBuddy 与 ChatGPT/Codex、Seedance 2.5 混为同一个产品。
+#### Windows
+
+1. 打开 [WorkBuddy 官网](https://www.workbuddy.cn/)，点击 **下载 WorkBuddy**。
+2. 选择 Windows 安装包；系统需要 Windows 10 或更高版本。
+3. 运行安装程序，按提示选择安装位置并完成安装。
+4. 启动 WorkBuddy，同意服务条款和隐私协议，使用微信扫码登录。
+
+#### macOS
+
+1. 打开 [WorkBuddy 官网](https://www.workbuddy.cn/)，根据电脑芯片选择 `Mac ARM64` 或 `Mac X64`。
+2. 系统需要 macOS 12 或更高版本。
+3. 打开下载的 `.dmg` 文件，把 WorkBuddy 拖入 Applications 文件夹。
+4. 启动 WorkBuddy，使用微信扫码登录。
+
+### 在 WorkBuddy 中导入本技能
+
+1. 下载本仓库 ZIP 并解压，找到 `skill/seedance-25` 文件夹。
+2. 将该技能文件夹单独压缩成 ZIP，确保压缩包内直接包含 `SKILL.md` 及配套文件。
+3. 打开 WorkBuddy，进入 **技能 → 已安装 → 添加技能 → 上传技能**。
+4. 选择刚才制作的技能 ZIP；WorkBuddy 会先进行安全检测，再完成导入。
+5. 安装后保持该技能启用，新建任务并输入：
+
+```text
+使用 seedance-25，把我的创意整理成一个30秒竖屏视频提示词。
+```
+
+> WorkBuddy 是另一种支持 Skill 的使用环境，不是 Seedance 视频生成平台。这个技能负责整理方案和提示词；生成视频时，仍需把结果粘贴到即梦/Dreamina 的 Seedance 2.5 中执行。
 
 ## 使用流程
 
@@ -124,4 +147,4 @@ macOS：~/.codex/skills/seedance-25
 
 出品与维护：**船长AI视界**
 
-> 本项目为社区技能，不是字节跳动、即梦、Dreamina、OpenAI 或 WordBuddy 官方产品。许可证信息见 [LICENSE](LICENSE)。
+> 本项目为社区技能，不是字节跳动、即梦、Dreamina、OpenAI 或腾讯 WorkBuddy 官方产品。许可证信息见 [LICENSE](LICENSE)。
